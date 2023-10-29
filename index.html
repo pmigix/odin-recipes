@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Project: Recipes</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <title>Project: Recipes</title>
     </head>
     <body>
         <header>
-            <h1>Odin Recipes</h1>
+            <div class="container">
+                <div class="intro">
+                    <h1>Odin Recipes</h1>
+                    <p>Hello and welcome!<br>Go ahead and explore the recipes :D</p>
+                </div>
+            </div>
         </header>
         <main>
-            <article class="recipes" id="a1">
-                <h2>RECIPE 1</h2>
-                <button type="button">
-                    <a href="./recipes/olivye.html">Open</a>
-                </button>
-            </article>
-            <article class="recipes" id="a2">
-                <h2>RECIPE 2</h2>
-                <button type="button">
-                    <a href="./recipes/stir-fry.html">Open</a>
-                </button>
-            </article>
-            <article class="recipes" id="a3">
-                <h2>RECIPE 3</h2>
-                <button type="button">
-                    <a href="./recipes/mojito.html">Open</a>
-                </button>
-            </article>
+            <div class="recipe">
+                <img src="./img/olivye.jpg" alt="Olivier Salad">
+                <div class="content olivye">
+                    <a href="./recipes/olivye.html"><h1>Olivier Salad</h1></a>
+                    <p>A salad dish made with finely diced ingredients all mixed up with mayonnaise</p>
+                </div>
+            </div>
+            <div class="recipe">
+                <img src="./img/stir-fry.jpg" alt="Beef Stir-Fry with rice">
+                <div class="content stirfry">
+                    <a href="./recipes/stir-fry.html"><h1>Beef stir-fry with rice</h1></a>
+                    <p>A quick and easy meal packed with vegetables, beef and mouth-watering flavours</p>
+                </div>
+            </div>
+            <div class="recipe mojito">
+                <img src="./img/mojito.jpg" alt="Mojito">
+                <div class="content stirfry">
+                    <a href="./recipes/mojito.html"><h1>Mojito</h1></a>
+                    <p>Mojito is a refreshing cocktail made with white rum, lime juice, mint, sugar and topped off with a bit of club soda</p>
+                </div>
+            </div>
         </main>
         <footer>
-            <p>Created By: Pmigix</p>
+            <div class="container">
+                <p>Created By: Pmigix</p>
+            </div>
         </footer>
     </body>
 </html>
