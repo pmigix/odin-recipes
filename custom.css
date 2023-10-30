@@ -16,6 +16,14 @@ body {
     background-color: rgba(30, 143, 255, 0.493);
 }
 
+.title.stirfry {
+    background-color: tomato;
+}
+
+.title.mojito {
+    background-color: rgb(170, 204, 101);
+}
+
 .content {
     width: 75%;
     max-width: 750px;
@@ -58,6 +66,14 @@ nav {
 
 nav.olivye {
     background-color: rgba(30, 143, 255, 0.493);
+}
+
+nav.stirfry {
+    background-color: tomato;
+}
+
+nav.mojito {
+    background-color: rgb(170, 204, 101);
 }
 
 nav a {
