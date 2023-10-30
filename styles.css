@@ -34,6 +34,13 @@ footer {
     padding: 3rem 0;
 }
 
+.flex-container {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 80%;
+}
+
 .recipe {
     margin: 0 auto;
     width: 50%;
@@ -47,7 +54,6 @@ footer {
 
 img, .content {
     width: 100%;
-    max-width: 300px;
     height: auto;
     border-radius: 5px;
 }
